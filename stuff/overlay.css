@@ -77,5 +77,8 @@
   }
 }
 :root .membersWrap-3NUR2t::after {
-background-color: var(--background-secondary);
+ background-color: var(--background-secondary);
+}
+:root .nowPlayingColumn-1eCBCN::after {
+ background-color: var(--background-secondary);
 }
