@@ -167,3 +167,11 @@
   color: #c5536c;
   border-color: #c5536c;
 }
+   /* Change the "Home Icon" to any image you want (Remove the default home icon) */
+:root .tutorialContainer-1pL9QS .childWrapper-1j_1ub, .tutorialContainer-2sGCg9 .childWrapper-1j_1ub {
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://cdn.discordapp.com/attachments/1024230065350914138/1097503279874842724/ezgif.com-crop.gif"); /* <-- Image URL here */
+  background-size: 48px 48px;
+  background-clip: border-box;
