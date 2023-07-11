@@ -9,13 +9,13 @@
 @import url("https://nyri4.github.io/LilyPichu/main.css");
 
 /* Remove decorations */
-@import url("https://github.com/Ziggs25/test-theme/blob/main/stuff/overlay.css");
+@import url("https://raw.githubusercontent.com/Ziggs25/test-theme/main/stuff/overlay.css");
 
 :root {
   /* --- User variables --- */
 
   /* Jumping GIF */
-  --jumping-gif: url("https://cdn.discordapp.com/attachments/1024230065350914138/1097503863461904385/ezgif.com-resize.gif");
+  --jumping-gif: url("https://cdn.discordapp.com/attachments/1024230065350914138/1097503279874842724/ezgif.com-crop.gif");
 
   /* Background (if you want an image replace it by : 
 
