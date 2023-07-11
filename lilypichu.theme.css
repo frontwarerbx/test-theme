@@ -175,3 +175,10 @@
   background-image: url("https://cdn.discordapp.com/attachments/1024230065350914138/1097503279874842724/ezgif.com-crop.gif"); /* <-- Image URL here */
   background-size: 48px 48px;
   background-clip: border-box;
+}
+:root .homeIcon-r0w4ny, .homeIcon-FuNwkv > path {
+  display: none;
+}
+.option-ayUoaq:after{
+  display: none;
+}
