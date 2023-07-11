@@ -74,9 +74,9 @@
   --input-background: var(--background-secondary);
 
   /* Scrollbar */
-  --scrollbar-auto-thumb: var(--background-tertiary);
+  --scrollbar-auto-thumb: #f8e1e5;
   --scrollbar-auto-track: var(--background-secondary-alt);
-  --scrollbar-thin-thumb: var(--background-tertiary);
+  --scrollbar-thin-thumb: #f8e1e5;
   --scrollbar-thin-track: transparent;
 
   /* Other */
