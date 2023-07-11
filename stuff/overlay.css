@@ -82,3 +82,17 @@
 :root .nowPlayingColumn-1eCBCN::after {
  background-color: var(--background-secondary);
 }
+.chatContent-3KubbW + :last-child, .container-2o3qEW {
+    top: 280px;
+    bottom: 120px;
+}
+.container-1eFtFS::after {
+    top: 220px;
+    bottom: 85px;
+}
+.panels-3wFtMD > .container-YkUktl {
+    bottom: 28px;
+}
+:root .layers-OrUESM {
+    margin: 20px 0 40px 0;
+}
