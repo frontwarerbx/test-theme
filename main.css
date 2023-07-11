@@ -481,6 +481,14 @@
   background-color: var(--background-secondary);
   border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
+:root .membersWrap-3NUR2t::after {
+  content: "";
+  position: absolute;
+  bottom: -35px;
+  z-index: 1;
+  width: 100%;
+  height: 35px;
+}
 :root .layout-1qmrhw {
   border-radius: var(--border-radius);
 }
