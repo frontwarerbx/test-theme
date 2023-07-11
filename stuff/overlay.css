@@ -77,5 +77,5 @@
   }
 }
 :root .membersWrap-3NUR2t::after {
-display: none;
+background-color: var(--background-secondary);
 }
