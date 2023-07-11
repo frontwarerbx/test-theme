@@ -1,5 +1,23 @@
 @import url("https://nyri4.github.io/donators/donators.css");
 @import url("https://fonts.googleapis.com/css2?family=Nunito");
+:root {
+  @keyframes cv-channel-select {
+    from {
+        right: 100%;
+        background-color: rgba(0, 0, 0, 0)
+    }
+
+    to {
+        right: 0;
+        background-color: var(--header-primary)
+    }
+}
+.wrapper-NhbLHG.modeSelected-3DmyhH .link-1_kTxV:after {
+    right: 0;
+    background: var(--header-primary);
+    animation: cv-channel-select .3s ease-in-out
+}
+}
 :root .container-3wLKDe {
   background: var(--background-primary);
 }
