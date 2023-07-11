@@ -1697,12 +1697,6 @@
         background-color: var(--header-primary)
     }
 }
-body,
-button,
-input,
-select,
-textarea,
-::placeholder {
 .wrapper-NhbLHG.modeSelected-3DmyhH .link-1_kTxV:after {
     right: 0;
     background: var(--header-primary);
