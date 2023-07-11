@@ -182,3 +182,12 @@
 .option-ayUoaq:after{
   display: none;
 }
+/* End Region for App Icon */
+
+/* Test area */
+
+/* add hover colors to everything*/
+:root .lookFilled-1H2Jvj.colorBrand-2M3O3N:hover {
+  background: var(--channel-icon) !important;
+  background-color: var(--channel-icon) !important;
+}
