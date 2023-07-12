@@ -212,6 +212,6 @@
 }
 
 :root .lookFilled-1H2Jvj.colorBrand-2M3O3N {
-  background: var(--background-primary) !important;
-  background-color: var( --background-primary) !important;
+  background: var(--interactive-active) !important;
+  background-color: var(--interactive-active) !important;
 }
