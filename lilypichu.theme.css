@@ -247,13 +247,5 @@
 }
 /* Test area for the call overlay */
 .theme-light .disabledButtonOverlay-10gJ0t {
-    cursor: not-allowed;
-    position: absolute;
-    top: -2px; /* Adjust the top value to cover the button completely */
-    right: -2px; /* Adjust the right value to cover the button completely */
-    bottom: -2px; /* Adjust the bottom value to cover the button completely */
-    left: -2px; /* Adjust the left value to cover the button completely */
-    z-index: 9;
-    border: none; /* Remove the border */
-    background: transparent; /* Make the overlay transparent */
+  display: none;
 }
