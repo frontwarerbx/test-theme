@@ -127,6 +127,10 @@
 }
 
 .theme-light {
+    /* Mention */
+  --mention-foreground: #a86373;
+  --mention-background: #fdc7c7;
+
   /* Text */
   --text-normal: #a86373;
   --header-primary: #a86373;
@@ -218,4 +222,13 @@
 :root .lookFilled-1H2Jvj.colorPrimary-2-Lusz {
   color: var(--white-500);
   background-color: var( --background-primary) !important;
+}
+:root .wrapper-1ZcZW- {
+  border-radius: 3px;
+  padding: 0 2px;
+  font-weight: 500;
+  unicode-bidi: -moz-plaintext;
+  unicode-bidi: plaintext;
+  color: var(--mention-foreground);
+  background: var(--mention-background);
 }
