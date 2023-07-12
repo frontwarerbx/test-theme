@@ -109,6 +109,9 @@
 .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
   color: var(--interactive-normal);
 }
+.friends-icon-2nTqWy {
+  color: var(--channels-default) !important;
+}
 
 .theme-light {
   /* Text */
@@ -144,6 +147,7 @@
 
   /* Other */
   --deprecated-quickswitcher-input-background: var(--background-primary);
+  
 }
 
 .colorBrand-3cPPsm {
@@ -165,6 +169,9 @@
 .lookOutlined-3yKVGo:not(.colorWhite-1H92hK) {
   color: #c5536c;
   border-color: #c5536c;
+}
+.friends-icon-2nTqWy {
+  color: var(--channels-default) !important;
 }
    /* Change the "Home Icon" to any image you want (Remove the default home icon) */
 :root .tutorialContainer-1pL9QS .childWrapper-1j_1ub, .tutorialContainer-2sGCg9 .childWrapper-1j_1ub {
