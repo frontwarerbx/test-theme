@@ -234,3 +234,18 @@
   color: var(--mention-foreground);
   background: var(--mention-background);
 }
+
+:root .container-2o3qEW {
+    top: 280px;
+    bottom: 120px;
+}
+:root .container-1eFtFS::after {
+    top: 220px;
+    bottom: 85px;
+}
+:root .panels-3wFtMD > .container-YkUktl {
+    bottom: 28px;
+}
+:root .layers-OrUESM {
+    margin: 20px 0 40px 0;
+}
