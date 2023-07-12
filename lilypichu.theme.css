@@ -109,7 +109,7 @@
 .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
   color: var(--interactive-normal);
 }
-.friends-icon-2nTqWy {
+.icon-2nTqWy {
   color: var(--channels-default) !important;
 }
 
@@ -170,7 +170,7 @@
   color: #c5536c;
   border-color: #c5536c;
 }
-.friends-icon-2nTqWy {
+.icon-2nTqWy {
   color: var(--channels-default) !important;
 }
    /* Change the "Home Icon" to any image you want (Remove the default home icon) */
