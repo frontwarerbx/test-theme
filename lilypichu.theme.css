@@ -249,3 +249,7 @@
 :root .disabledButtonOverlay-10gJ0t {
   display: none;
 }
+.theme-light .button-1EGGcP.buttonColor-3bP3fX, .button-1EGGcP .buttonColor-3bP3fX {
+    background: transparent;;
+    color: var(--interactive-active);
+}
