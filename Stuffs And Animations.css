@@ -1,4 +1,18 @@
+/* Hide Nitro section */
+:root .dm-nitro {
+    display: none;
+}
 
+/* Adjust DM list */
+:root .app .sidebar .content-3YMskv {
+    display: flex;
+    flex-direction: column;
+}
+
+:root .sidebar .content-3YMskv .scroller-2FKFPG {
+    flex-grow: 1;
+    overflow-y: auto;
+}
 
 
 .theme-light .container-ZMc96U .children-3xh0VB .icon-2xnN2Y {
