@@ -243,7 +243,7 @@
   color: var(--mention-background);
 }
 .theme-light.text-sm-medium-2-Xzsi {
-  color: #a86373;
+  color: #a86373 !important;
 }
 /* Test area for the call overlay */
 :root .disabledButtonOverlay-10gJ0t {
@@ -252,8 +252,4 @@
 .theme-light .button-1EGGcP.buttonColor-3bP3fX, .button-1EGGcP .buttonColor-3bP3fX {
     background: transparent;;
     color: var(--interactive-active);
-}
-.theme-light .lookFilled-1H2Jvj.colorPrimary-2-Lusz {
-    color: #a86373;
-    background-color: var(--channels-default) !important;
 }
