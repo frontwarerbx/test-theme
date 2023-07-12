@@ -223,9 +223,9 @@
   background: var(--interactive-active) !important;
   background-color: var(--interactive-active) !important;
 }
-:root .lookFilled-1H2Jvj.colorPrimary-2-Lusz {
+.theme-light .lookFilled-1H2Jvj.colorPrimary-2-Lusz {
   color: var(--white-500);
-  background-color: var( --background-primary) !important;
+  background-color: var(--channels-default) !important;
 }
 :root .wrapper-1ZcZW- {
   border-radius: 3px;
