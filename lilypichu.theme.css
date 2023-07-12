@@ -239,3 +239,6 @@
 .theme-light .innerHeader-1cC3Fp:after {
      display: none;
 }
+.theme-light .buttonIcon-2Zsrs2 {
+  background: var(--mention-background);
+}
