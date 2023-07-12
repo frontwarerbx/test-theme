@@ -210,3 +210,8 @@
   background: var(--channel-icon) !important;
   background-color: var(--channel-icon) !important;
 }
+
+:root .lookFilled-1H2Jvj.colorBrand-2M3O3N {
+  background: var(--background-primary) !important;
+  background-color: var( --background-primary) !important;
+}
