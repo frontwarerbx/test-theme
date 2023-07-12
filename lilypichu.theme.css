@@ -240,5 +240,8 @@
      display: none;
 }
 .theme-light .buttonIcon-2Zsrs2 {
-  background: var(--mention-background);
+  color: var(--mention-background);
+}
+.theme-light.text-sm-medium-2-Xzsi {
+  color: #a86373;
 }
