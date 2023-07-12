@@ -82,7 +82,6 @@
   /* Other */
   --channel-text-area-placeholder: var(--interactive-normal);
   --deprecated-quickswitcher-input-background: var(--background-primary);
-    --channels-default: #ff0000; /* Replace #ff0000 with your desired color */
 }
 /* Add glow effect */
 .theme-dark .channelIconDefault-2Nn_1R:before {
