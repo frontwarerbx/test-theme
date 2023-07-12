@@ -18,7 +18,7 @@
 
   /* Background (if you want an image replace it by : */
 
-   --background-tertiary-alt: url("https://i.redd.it/yy5aqeb4ju981.png");
+   --background-tertiary-alt: url("https://previews.123rf.com/images/jaboy/jaboy2002/jaboy200200379/140162359-cherry-blossom-wave-japanese-pattern-spring-background.jpg");
 /*  --background-tertiary-alt: #ffc7d4; */
 
   /* Border-radius for the whole theme */
@@ -38,7 +38,6 @@
   }
 }
   --channel-text-area-placeholder: #f70b75ce; 
-  --channel-icon: #f8e1e5;
 }
 
 .theme-dark {
@@ -47,6 +46,7 @@
   --header-primary: #f8e1e5;
   --interactive-normal: #fab1bd;
   --channels-default: #f8e1e5;
+  --channel-icon: #f8e1e5;
   
   --text-muted: #e2c1c7;
   --interactive-muted: #ad8c91;
@@ -136,7 +136,8 @@
   --header-primary: #a86373;
   --interactive-normal: #a86373;
   --channels-default: #a86373;
-
+  --channel-icon: #a86373;
+  
   --text-muted: #a86373;
   --interactive-muted: #cf92a0;
 
@@ -144,6 +145,7 @@
   --interactive-hover: #be7d8c;
   --interactive-active: #b36f7f;
 
+  --text-link: #f70b75ce;
   /* Background color */
   --background-primary: #ffffff;
   --background-secondary: #ffeeee;
