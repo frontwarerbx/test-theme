@@ -245,6 +245,9 @@
 .theme-light.text-sm-medium-2-Xzsi {
   color: #a86373 !important;
 }
+.theme-light .search-2Mwzzq .DraftEditor-root .public-DraftStyleDefault-block span {
+  background: #a86373;
+}
 /* Test area for the call overlay */
 :root .disabledButtonOverlay-10gJ0t {
   display: none;
