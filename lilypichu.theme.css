@@ -246,6 +246,6 @@
   color: #a86373;
 }
 /* Test area for the call overlay */
-.theme-light .disabledButtonOverlay-10gJ0t {
+:root .disabledButtonOverlay-10gJ0t {
   display: none;
 }
