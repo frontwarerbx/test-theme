@@ -236,3 +236,6 @@
   color: var(--mention-foreground);
   background: var(--mention-background);
 }
+.theme-light .innerHeader-1cC3Fp:after {
+     display: none;
+}
