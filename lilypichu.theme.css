@@ -82,6 +82,20 @@
   /* Other */
   --channel-text-area-placeholder: var(--interactive-normal);
   --deprecated-quickswitcher-input-background: var(--background-primary);
+    --channels-default: #ff0000; /* Replace #ff0000 with your desired color */
+}
+/* Add glow effect */
+.theme-dark .channelIconDefault-2Nn_1R:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  background-color: var(--channels-default); /* Use the same color as --channels-default */
+  box-shadow: 0 0 8px 4px var(--channels-default); /* Adjust the blur radius and spread values as desired */
+  pointer-events: none;
 }
 .colorBrand-3cPPsm {
   color: #c5536c;
