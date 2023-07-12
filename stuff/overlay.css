@@ -96,3 +96,15 @@
 :root .layers-OrUESM {
     margin: 20px 0 40px 0;
 }
+/* Channel name hover & click animations. */
+.containerDefault--pIXnN {
+  transition: all 0.5s;
+}
+.containerDefault--pIXnN:hover {
+  transition: all 0.2s;
+  transform: translatex(-3px);
+}
+.containerDefault--pIXnN:active {
+  transition: all 0.2s;
+  transform: translatex(1px);
+}
