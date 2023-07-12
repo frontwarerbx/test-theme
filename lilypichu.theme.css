@@ -14,14 +14,19 @@
 @import url("https://raw.githubusercontent.com/Ziggs25/test-theme/main/Stuffs%20And%20Animations.css");
 :root {
   /* --- User variables --- */
-
+  --background-image: url("https://cdn.discordapp.com/attachments/1024230065350914138/1128686632904708228/ayo.png");
+  --background-position-x: center; /* Possible values: left, center, right */
+  --background-position-y: top; /* Possible values: top, center, bottom */
+}
   /* Startup GIF */
   --jumping-gif: url("https://cdn.discordapp.com/attachments/1024230065350914138/1097503279874842724/ezgif.com-crop.gif");
 
   /* Background (if you want an image replace it by : */
+  /*  --background-tertiary-alt: #ffc7d4; */
+  --background-tertiary-alt: var(--background-image) var(--background-position-x) var(--background-position-y) / cover !important;
+  --background-filter: blur(2px); /* Adjust the blur value as desired */
+  --background-blur: var(--background-filter) !important;
 
-   --background-tertiary-alt: #f4acb7;
-/*  --background-tertiary-alt: #ffc7d4; */
 
   /* Border-radius for the whole theme */
   --border-radius: 20px;
