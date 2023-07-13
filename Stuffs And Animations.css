@@ -1,4 +1,7 @@
 :root {
+    .theme-light .headerBarInner-39Tej7:after {
+        display: none;
+    }
     .menu-2TXYjN .item-5ApiZt.focused-3LIdPu {
     background-color: var(--hover-color);
 }
