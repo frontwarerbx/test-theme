@@ -261,3 +261,6 @@
     background: transparent;;
     color: var(--interactive-active);
 }
+.theme-light .controlIcon-10O-4h {
+  color: var(--interactive-normal);
+}
