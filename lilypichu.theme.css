@@ -14,8 +14,8 @@
 @import url("https://raw.githubusercontent.com/Ziggs25/test-theme/main/Stuffs%20And%20Animations.css");
 :root {
     /* ACCENT COLORS */
-  --main-color: #a86373; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
-  --hover-color: #a86373; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
+  --main-color: #a86373 !important;/* main accent color (hex, rgb or hsl) [default: #2780e6] */
+  --hover-color: #a86373 !important;/* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
   --success-color: #43b581; /* success accent color (hex, rgb or hsl) [default: #43b581] */
   --danger-color: #982929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
 
@@ -27,9 +27,9 @@
   --offline-color: #808080; /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
     
    /* THEME BD COLORS */
-  --bd-blue: var(--main-color); /* betterdiscord main color [default: var(--main-color)] */
-  --bd-blue-hover: var(--hover-color); /* betterdiscord hover color [default: var(--hover-color)] */
-  --bd-blue-active : var(--hover-color); /* betterdiscord active color [default: var(--hover-color)] */
+  --bd-blue: var(--main-color) !important; /* betterdiscord main color [default: var(--main-color)] */
+  --bd-blue-hover: var(--hover-color) !important; /* betterdiscord hover color [default: var(--hover-color)] */
+  --bd-blue-active : var(--hover-color) !important; /* betterdiscord active color [default: var(--hover-color)] */
 
   /* --- User variables --- */
   --background-image: url("https://cdn.discordapp.com/attachments/1024230065350914138/1128686632904708228/ayo.png");
