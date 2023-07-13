@@ -185,47 +185,12 @@ transform: translatex(1px);
 .cozy-VmLDNB .headerText-2z4IhQ > .username-h_Y3Us {
   margin-left: 5px;
 }
-/* Hover over server list to show channels */
-/*.sidebar-1tnWFu{
-  width: 0px;
-  transition: width 0.5s ease;
-  overflow: hidden;
-}
-
-.wrapper-3NnKdC:hover+.base-3dtUhz>.content-98HsJk>.sidebar-1tnWFu {
-  width: 240px !important;
-  transition: width 0.5s ease;
-  overflow: visible !important;
-}
-
 .sidebar-1tnWFu:hover {
-  width: 240px !important;
-  transition: width 0.5s ease;
-  overflow: visible !important;
-}*/
-/* Hover over guild list to show channels */
-/* .wrapper-3kah-n:hover .sidebar-1tnWFu {
-  width: 240px;
-}
-
-.wrapper-3kah-n:hover {
-  width: 240px;
+  width: auto;
 }
 
 .sidebar-1tnWFu {
-  width: 0px;
-  transition: width 0.2s ease;
-}*/
-@import url("https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js");
-
-/* Hide channel list */
-#app-mount .channels-3g2vYe,
-#app-mount .container-1sFeqf {
-  display: none !important;
-}
-
-/* Show channel list on hover */
-.guilds-1SWlCJ:hover #app-mount .channels-3g2vYe,
-.guilds-1SWlCJ:hover #app-mount .container-1sFeqf {
-  display: block !important;
+  min-width: 60px;
+  width: 60px;
+  z-index: 10;
 }
