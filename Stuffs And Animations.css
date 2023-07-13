@@ -188,18 +188,18 @@ transform: translatex(1px);
 /* Hover over server list to show channels */
 .sidebar-1tnWFu{
   width: 0px;
-  transition: width 0.2s ease;
+  transition: width 0.5s ease;
   overflow: hidden;
 }
 
-.wrapper-3NnKdC:hover + .base-3dtUhz .content-98HsJk .sidebar-1tnWFu {
+.guilds-2JjMmN :hover + .base-3dtUhz .content-98HsJk .sidebar-1tnWFu {
   width: 240px !important;
-  transition: width 0.2s ease;
+  transition: width 0.5s ease;
   overflow: visible !important;
 }
 
 .sidebar-1tnWFu:hover {
   width: 240px !important;
-  transition: width 0.2s ease;
+  transition: width 0.5s ease;
   overflow: visible !important;
 }
