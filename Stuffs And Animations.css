@@ -168,4 +168,20 @@ transform: translatex(-3px);
 transition: all 0.2s;
 transform: translatex(1px);
 }
-.privateChannels-oVe7HL {
+
+/* Username role background */
+.cozy-VmLDNB .headerText-2z4IhQ > .username-h_Y3Us::before {
+  content: ''; 
+  width: calc(100% + 10px); 
+  height: 100%;
+  border-radius: 5px;
+  background-color: currentColor; 
+  opacity: 0.2; 
+  position: absolute; 
+  top: 0; 
+  z-index: -1;
+  left: -5px;
+}
+.cozy-VmLDNB .headerText-2z4IhQ > .username-h_Y3Us {
+  margin-left: 5px;
+}
