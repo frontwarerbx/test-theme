@@ -204,7 +204,7 @@ transform: translatex(1px);
   overflow: visible !important;
 }*/
 /* Hover over guild list to show channels */
-.wrapper-3kah-n:hover .sidebar-1tnWFu {
+/* .wrapper-3kah-n:hover .sidebar-1tnWFu {
   width: 240px;
 }
 
@@ -215,4 +215,4 @@ transform: translatex(1px);
 .sidebar-1tnWFu {
   width: 0px;
   transition: width 0.2s ease;
-}
+}*/
