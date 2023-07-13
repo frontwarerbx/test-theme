@@ -144,14 +144,27 @@
 }
 
 /* Channel hover and click animation */
-    .containerDefault-YUSmu3 {
-    transition: all 0.5s;
-    }
-    .containerDefault-YUSmu3:hover {
-    transition: all 0.2s;
-    transform: translatex(-3px);
-    }
-    .containerDefault-YUSmu3:active {
-    transition: all 0.2s;
-    transform: translatex(1px);
-    }
+  .containerDefault-YUSmu3 {
+transition: all 0.5s;
+}
+.containerDefault-YUSmu3:hover {
+transition: all 0.2s;
+transform: translatex(-3px);
+}
+.containerDefault-YUSmu3:active {
+transition: all 0.2s;
+transform: translatex(1px);
+}
+
+/* Dm list area */
+:root .content-1gYQeQ, :root .container-32HW5s {
+transition: all 0.5s;
+}
+:root .content-1gYQeQ, :root .container-32HW5s {
+transition: all 0.2s;
+transform: translatex(-3px);
+}
+:root .content-1gYQeQ, :root .container-32HW5s {
+transition: all 0.2s;
+transform: translatex(1px);
+}
