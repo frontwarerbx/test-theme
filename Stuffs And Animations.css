@@ -27,3 +27,11 @@
 :root .link-1_kTxV {
     transition: all .15s ease-in-out;
 }
+:root .privateChannels-oVe7HL .privateChannelsHeaderContainer-1UWASm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-normal);
+    font-weight: 700;
+    text-align: center;
+}
