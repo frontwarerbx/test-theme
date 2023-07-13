@@ -283,5 +283,5 @@
   color: var(--interactive-normal);
 }
 .theme-light.row-1qtctT {
-background-color: var(--text-normal);
+background-color: var(--text-normal) !important;
 }
