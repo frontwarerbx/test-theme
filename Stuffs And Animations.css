@@ -185,3 +185,21 @@ transform: translatex(1px);
 .cozy-VmLDNB .headerText-2z4IhQ > .username-h_Y3Us {
   margin-left: 5px;
 }
+/* Hover over server list to show channels */
+.sidebar-1tnWFu{
+  width: 0px;
+  transition: width 0.2s ease;
+  overflow: hidden;
+}
+
+.wrapper-3NnKdC:hover + .base-3dtUhz .content-98HsJk .sidebar-1tnWFu {
+  width: 240px !important;
+  transition: width 0.2s ease;
+  overflow: visible !important;
+}
+
+.sidebar-1tnWFu:hover {
+  width: 240px !important;
+  transition: width 0.2s ease;
+  overflow: visible !important;
+}
