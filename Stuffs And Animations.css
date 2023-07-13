@@ -128,7 +128,7 @@
   z-index: 99;
   overflow-y: auto;
   max-height: calc(100vh - 72px);
-  margin: auto auto auto calc(60px + 8px); /* Adjust the left margin value as needed */
+  margin: auto auto auto calc(62px + 8px); /* Adjust the left margin value as needed */
   padding-top: 8px;
   border-radius: 8px;
   background: var(--background-tertiary);
