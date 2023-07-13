@@ -216,3 +216,16 @@ transform: translatex(1px);
   width: 0px;
   transition: width 0.2s ease;
 }*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js");
+
+/* Hide channel list */
+#app-mount .channels-3g2vYe,
+#app-mount .container-1sFeqf {
+  display: none !important;
+}
+
+/* Show channel list on hover */
+.guilds-1SWlCJ:hover #app-mount .channels-3g2vYe,
+.guilds-1SWlCJ:hover #app-mount .container-1sFeqf {
+  display: block !important;
+}
