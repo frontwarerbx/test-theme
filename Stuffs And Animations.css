@@ -117,25 +117,26 @@
 
 /* Floating Folder */
 .wrapper-38slSD:active {
-    -webkit-transform: unset;
-    transform: none;
+  -webkit-transform: unset;
+  transform: none;
 }
 
 [id^="folder-items-"] {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    z-index: 99;
-    overflow-y: auto;
-    max-height: calc(100vh - 72px);
-    margin: auto auto auto calc(90px + 8px);
-    padding-top: 8px;
-    border-radius: 8px;
-    background: var(--background-tertiary);
-    -webkit-box-shadow: var(--elevation-high);
-    box-shadow: var(--elevation-high);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 99;
+  overflow-y: auto;
+  max-height: calc(100vh - 72px);
+  margin: auto auto auto calc(60px + 8px); /* Adjust the left margin value as needed */
+  padding-top: 8px;
+  border-radius: 8px;
+  background: var(--background-tertiary);
+  -webkit-box-shadow: var(--elevation-high);
+  box-shadow: var(--elevation-high);
 }
 
 [id^="folder-items-"]::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
+
