@@ -25,7 +25,12 @@
   --dnd-color: #982929; /* dnd status color (hex, rgb or hsl) [default: #982929] */
   --streaming-color: #593695; /* streaming status color (hex, rgb or hsl) [default: #593695] */
   --offline-color: #808080; /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
-  
+    
+   /* THEME BD COLORS */
+  --bd-blue: var(--main-color); /* betterdiscord main color [default: var(--main-color)] */
+  --bd-blue-hover: var(--hover-color); /* betterdiscord hover color [default: var(--hover-color)] */
+  --bd-blue-active : var(--hover-color); /* betterdiscord active color [default: var(--hover-color)] */
+
   /* --- User variables --- */
   --background-image: url("https://cdn.discordapp.com/attachments/1024230065350914138/1128686632904708228/ayo.png");
   --background-position-x: center; /* Possible values: left, center, right */
