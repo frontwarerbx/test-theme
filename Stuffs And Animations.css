@@ -1,15 +1,12 @@
 :root {
     .menu-2TXYjN .item-5ApiZt.focused-3LIdPu {
     background-color: var(--hover-color);
-    color: #fff
 }
     .menu-2TXYjN .item-5ApiZt {
-    color: rgba(255, 255, 255, .7);
     transition: all .15s ease-in-out
 }
     .menu-2TXYjN .item-5ApiZt.colorDefault-2_rLdz:active:not(.hideInteraction-1vQrZJ) {
     background-color: var(--hover-color);
-    color: #fff;
     border-color: var(--hover-color)
 }
 }
