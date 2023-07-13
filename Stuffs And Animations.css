@@ -140,3 +140,15 @@
   display: none;
 }
 
+/* Channel hover and click animation */
+    .containerDefault-YUSmu3 {
+    transition: all 0.5s;
+    }
+    .containerDefault-YUSmu3:hover {
+    transition: all 0.2s;
+    transform: translatex(-3px);
+    }
+    .containerDefault-YUSmu3:active {
+    transition: all 0.2s;
+    transform: translatex(1px);
+    }
