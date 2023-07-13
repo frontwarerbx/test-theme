@@ -186,7 +186,7 @@ transform: translatex(1px);
   margin-left: 5px;
 }
 /* Hover over server list to show channels */
-.sidebar-1tnWFu{
+/*.sidebar-1tnWFu{
   width: 0px;
   transition: width 0.5s ease;
   overflow: hidden;
@@ -202,4 +202,17 @@ transform: translatex(1px);
   width: 240px !important;
   transition: width 0.5s ease;
   overflow: visible !important;
+}*/
+/* Hover over guild list to show channels */
+.wrapper-3NnKdC:hover .sidebar-1tnWFu {
+  width: 240px;
+}
+
+.sidebar-1tnWFu:hover {
+  width: 240px;
+}
+
+.sidebar-1tnWFu {
+  width: 0px;
+  transition: width 0.2s ease;
 }
