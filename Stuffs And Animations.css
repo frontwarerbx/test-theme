@@ -185,12 +185,13 @@ transform: translatex(1px);
 .cozy-VmLDNB .headerText-2z4IhQ > .username-h_Y3Us {
   margin-left: 5px;
 }
-.sidebar-1tnWFu:hover {
-  width: auto;
-}
-
 .sidebar-1tnWFu {
-  min-width: 60px;
-  width: 60px;
-  z-index: 10;
+    width: 0px;
+    transition: 0.2s ease;
+}
+.wrapper-1_HaEi:hover+.base-2jDfDU>.content-1SgpWY>.sidebar-1tnWFu{
+    width:240px;
+}
+.sidebar-1tnWFu:hover {
+    width:240px;
 }
