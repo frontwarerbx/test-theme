@@ -62,3 +62,33 @@
     flex: 1 1 auto;
     color: var(--channels-default);
 }
+:root .name-3BUDLf:after {
+    content: "";
+    height: 2px;
+    flex-grow: 1;
+    transition: all .3s ease-in-out;
+    background: linear-gradient(to right, var(--channel-default) 50%, transparent);
+    margin-left: 5px;
+}
+:root .name-3BUDLf:before {
+    content: "";
+    height: 2px;
+    flex-grow: 1;
+    transition: all .3s ease-in-out;
+    background: linear-gradient(to left, var(--channel-default) 50%, transparent);
+    margin-right: 5px;
+}
+:root .members-3WRCEx .membersGroup-2eiWxl:before {
+    content: "";
+    height: 2px;
+    flex-grow: 1;
+    background: linear-gradient(to left, currentColor 50%, transparent);
+    margin-right: 5px;
+}
+:root .members-3WRCEx .membersGroup-2eiWxl:after {
+    content: "";
+    height: 2px;
+    flex-grow: 1;
+    background: linear-gradient(to right, currentColor 50%, transparent);
+    margin-left: 5px;
+}
