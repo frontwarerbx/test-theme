@@ -107,14 +107,14 @@
     background: linear-gradient(to right, currentColor 50%, transparent);
     margin-left: 5px;
 }
-.theme-light .sidebar-2K8pFh {
+.sidebar-2K8pFh {
     width: 0px;
     transition: 0.2s ease;
 }
-.theme-light .wrapper-3NnKdC:hover+.base-3dtUhz>.content-98HsJk>.sidebar-2K8pFh{
+.wrapper-3NnKdC:hover+.base-3dtUhz>.content-98HsJk>.sidebar-2K8pFh{
     width:240px;
 }
-.theme-light .sidebar-2K8pFh:hover {
+.sidebar-2K8pFh:hover {
     width:240px;
 }
 
@@ -168,3 +168,4 @@ transform: translatex(-3px);
 transition: all 0.2s;
 transform: translatex(1px);
 }
+.privateChannels-oVe7HL {
