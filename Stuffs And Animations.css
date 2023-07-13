@@ -192,7 +192,7 @@ transform: translatex(1px);
   overflow: hidden;
 }
 
-.guilds-2JjMmN :hover + .base-3dtUhz .content-98HsJk .sidebar-1tnWFu {
+.wrapper-3NnKdC:hover+.base-3dtUhz>.content-98HsJk>.sidebar-1tnWFu {
   width: 240px !important;
   transition: width 0.5s ease;
   overflow: visible !important;
