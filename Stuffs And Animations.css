@@ -185,3 +185,15 @@ transform: translatex(1px);
 .cozy-VmLDNB .headerText-2z4IhQ > .username-h_Y3Us {
   margin-left: 5px;
 }
+.container-1NXEtd {
+  width: 0px;
+  transition: 0.2s ease;
+}
+
+.wrapper-1_HaEi:hover + .base-2jDfDU > .content-1SgpWY > .container-1NXEtd  {
+  width: 240px;
+}
+
+.container-1NXEtd:hover {
+  width: 240px;
+}
