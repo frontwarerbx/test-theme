@@ -1672,7 +1672,7 @@
     margin-right: 450px;
     border-radius: 0 var(--border-radius) var(--border-radius) 0;
   }
-  .panels-3wFtMD > .container-YkUktl {
+  /* .panels-3wFtMD > .container-YkUktl {
     position: fixed;
     display: flex;
     width: 305px;
@@ -1685,7 +1685,7 @@
   }
   .panels-3wFtMD > .container-YkUktl .avatarWrapper-1B9FTW {
     border-radius: var(--border-radius);
-  }
+  } */
   .container-1eFtFS {
     overflow: visible;
   }
