@@ -172,3 +172,7 @@ transform: translatex(1px);
 .sidebar-1tnWFu:hover{
   width: 240px;
 }
+/*NSFW warning image*/
+.theme-light .image-3HC6rC {
+    background-image: url(https://media.tenor.com/lgVA4kQLdk8AAAAi/yae-miko-genshin-impact.gif);
+}
