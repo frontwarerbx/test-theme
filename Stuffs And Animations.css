@@ -165,7 +165,7 @@ transform: translatex(1px);
   transition: 0.2s ease;
 }
 
-.wrapper-1_HaEi:hover + .base-2jDfDU > .content-1SgpWY > .sidebar-1tnWFu ,.layer-2BGhQ8 {
+.wrapper-1_HaEi:hover + .base-2jDfDU > .content-1SgpWY > .sidebar-1tnWFu ,.layer-2BGhQ8 :hover {
   width: 240px;
 }
 
