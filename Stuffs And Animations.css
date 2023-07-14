@@ -186,12 +186,14 @@ transform: translatex(1px);
   margin-left: 5px;
 }
 .sidebar-1tnWFu {
-    width: 0px;
-    transition: 0.2s ease;
+  width: 0px;
+  transition: 0.2s ease;
 }
-.wrapper-1_HaEi:hover+.base-2jDfDU>.content-1SgpWY>.sidebar-1tnWFu{
-    width:240px;
+
+.wrapper-1_HaEi:hover + .base-2jDfDU > .content-1SgpWY:hover > .sidebar-1tnWFu {
+  width: 240px;
 }
+
 .sidebar-1tnWFu:hover {
-    width:240px;
+  width: 240px;
 }
