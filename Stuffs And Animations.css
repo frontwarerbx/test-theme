@@ -196,3 +196,7 @@ transform: translatex(1px);
 .theme-light .image-3HC6rC {
     background-image: url("https://media.tenor.com/lgVA4kQLdk8AAAAi/yae-miko-genshin-impact.gif");
 }
+/* hide Nitro */
+:root .avatarWithText-1tTt2S layout-1LjVue {
+display: none !important;
+}
