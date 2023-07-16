@@ -119,7 +119,7 @@
 }
 
 /* Channel hover and click animation */
-.containerDefault-YUSmu3 {
+/* .containerDefault-YUSmu3 {
     transition: transform 0.5s;
 }
 
@@ -131,7 +131,7 @@
 .containerDefault-YUSmu3:active {
     transition: transform 0.2s;
     transform: translateX(0);
-}
+} */
 
 /* Dm list area */
 :root .content-1gYQeQ, :root .container-32HW5s {
