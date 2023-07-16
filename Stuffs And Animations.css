@@ -161,35 +161,35 @@ transform: translatex(1px);
   margin-left: 5px;
 }
 
+.sidebar-1tnWFu:has(+ main) {
+    width: 240px!important;
+    z-index: 1;
+}
+    
 .sidebar-1tnWFu {
-    position: absolute; /* Make the channel list a floating window */
     width: 0px!important;
     z-index: 1;
-    transition: width 0.2s ease; /* Add a transition effect for smooth animation */
 }
-
+    
 .chat-2ZfjoI {
     z-index: 0;
-    margin-left: 0!important; /* Reset the margin to keep the chat content in place */
-    transition: margin-left 0.2s ease; /* Add a transition effect for smooth animation */
 }
-
+    
 .wrapper-1_HaEi:hover+.base-2jDfDU>.content-1SgpWY>.sidebar-1tnWFu{
-    width: 240px!important;
+    width:240px!important;
 }
-
+    
 .sidebar-1tnWFu:hover {
-    width: 240px!important;
+    width:240px!important;
 }
-
+    
 .wrapper-1_HaEi:hover+.base-2jDfDU>.content-1SgpWY>.chat-2ZfjoI {
-    margin-left: 240px!important;
+    margin-left: -240px!important;
 }
-
+    
 .sidebar-1tnWFu:hover+.chat-2ZfjoI {
-    margin-left: 240px!important;
+    margin-left: -240px!important;
 }
-
 /*NSFW warning image*/
 .theme-light .image-3HC6rC {
     background-image: url("https://media.tenor.com/lgVA4kQLdk8AAAAi/yae-miko-genshin-impact.gif");
