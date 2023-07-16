@@ -119,16 +119,18 @@
 }
 
 /* Channel hover and click animation */
-  .containerDefault-YUSmu3 {
-transition: all 0.5s;
+.containerDefault-YUSmu3 {
+    transition: transform 0.5s;
 }
+
 .containerDefault-YUSmu3:hover {
-transition: all 0.2s;
-transform: translatex(-3px);
+    transition: transform 0.2s;
+    transform: translateX(-3px);
 }
+
 .containerDefault-YUSmu3:active {
-transition: all 0.2s;
-transform: translatex(1px);
+    transition: transform 0.2s;
+    transform: translateX(0);
 }
 
 /* Dm list area */
