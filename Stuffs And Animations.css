@@ -197,9 +197,12 @@ transform: translatex(1px);
     background-image: url("https://media.tenor.com/lgVA4kQLdk8AAAAi/yae-miko-genshin-impact.gif");
 }
 /* hide Nitro */
-:root .avatarWithText-1tTt2S layout-1LjVue {
-display: none !important;
-}
-:root .linkButton-2NshQj {
- display: none !important;
+[class^="channel-"] > div > [href="/store"], /* Nitro Button above DM List */
+[class^="channelTextArea"] [class^="buttons-"] > button, /* Gift Button */
+[class^="upsellVisible-"], /* Banner Nitro Upsell Header in the user modal */
+[class^="premiumIconWrapper"], /* Nitro Icon in top right on Banners */
+[class^="characterCount-"] [class*="upsell-"], /* "Send longer Messages with Discord Nitro!" */
+[class^="emojiSection-"] [class*="shinyButton-"] /* "Get Nitro" button in Emoji/Sticker modal" */
+{
+    display: none !important;
 }
