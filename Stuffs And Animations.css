@@ -189,7 +189,6 @@ transform: translatex(1px);
     
 .sidebar-1tnWFu:hover+ div {
     margin-left: -240px!important;
-     transition: 0.2s ease;
 }
 /*NSFW warning image*/
 .theme-light .image-3HC6rC {
