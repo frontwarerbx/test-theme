@@ -157,7 +157,7 @@ transform: translatex(1px);
 .cozy-VmLDNB .headerText-2z4IhQ > .username-h_Y3Us {
   margin-left: 5px;
 }
-
+/* hover channel */
 .sidebar-1tnWFu:has(+ main) {
     width: 240px!important;
     z-index: 1;
@@ -166,6 +166,7 @@ transform: translatex(1px);
 .sidebar-1tnWFu {
     width: 0px!important;
     z-index: 1;
+    transition: 0.2s ease;
 }
     
 .chat-2ZfjoI {
@@ -174,12 +175,10 @@ transform: translatex(1px);
     
 .wrapper-1_HaEi:hover+.base-2jDfDU>.content-1SgpWY>.sidebar-1tnWFu{
     width:240px!important;
-     transition: 0.2s ease;
 }
     
 .sidebar-1tnWFu:hover {
     width:240px!important;
-     transition: 0.2s ease;
 }
     
 .wrapper-1_HaEi:hover+.base-2jDfDU>.content-1SgpWY>.chat-2ZfjoI {
