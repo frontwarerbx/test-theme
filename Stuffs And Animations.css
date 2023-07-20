@@ -211,7 +211,7 @@ transform: translatex(1px);
   pointer-events: none;
 }
 :root .app-2CXKsg::before {
-  top: 100px;
+  top: 80px;
   right: 116px;
   width: 200px; /* Set the width and height to the same value for a square image */
   height: 200px;
