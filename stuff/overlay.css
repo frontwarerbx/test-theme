@@ -24,11 +24,12 @@
 :root .app-2CXKsg::before {
   top: 80px;
   right: 116px;
-  width: 200px;
-  height: 120px;
-  background: url("https://cdn.discordapp.com/attachments/1010403461071908916/1128321939388235896/20230711_214825.png") no-repeat;
-  background-size: 100%;
+  width: 200px; /* Set the width and height to the same value for a square image */
+  height: 200px;
+  background: url("https://cdn.discordapp.com/attachments/996765368515305492/1130367084094816368/1689570697395.png") no-repeat;
+  background-size: cover; /* or background-size: 100% 100%; */
 }
+
 :root .app-2CXKsg::after {
   bottom: 20px;
   right: 45%;
@@ -95,16 +96,4 @@
 }
 :root .layers-OrUESM {
     margin: 20px 0 40px 0;
-}
-/* Channel name hover & click animations. */
-.containerDefault--pIXnN {
-  transition: all 0.5s;
-}
-.containerDefault--pIXnN:hover {
-  transition: all 0.2s;
-  transform: translatex(-3px);
-}
-.containerDefault--pIXnN:active {
-  transition: all 0.2s;
-  transform: translatex(1px);
 }
