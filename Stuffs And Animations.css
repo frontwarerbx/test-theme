@@ -212,8 +212,8 @@ transform: translatex(1px);
 :root .app-2CXKsg::before {
   top: 80px;
   right: 116px;
-  width: 200px; /* Set the width and height to the same value for a square image */
-  height: 280px;
+  width: 200px;
+  height: 120px;
   background: url("https://cdn.discordapp.com/attachments/996765368515305492/1132999729190547496/20230724_193611.png") no-repeat;
-  background-size: cover; /* or background-size: 100% 100%; */
+  background-size: 100%;
 }
