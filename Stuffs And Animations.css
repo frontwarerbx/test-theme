@@ -214,6 +214,6 @@ transform: translatex(1px);
   right: 116px;
   width: 200px; /* Set the width and height to the same value for a square image */
   height: 280px;
-  background: url("https://cdn.discordapp.com/attachments/996765368515305492/1130367084094816368/1689570697395.png") no-repeat;
+  background: url("https://cdn.discordapp.com/attachments/996765368515305492/1132999729190547496/20230724_193611.png") no-repeat;
   background-size: cover; /* or background-size: 100% 100%; */
 }
