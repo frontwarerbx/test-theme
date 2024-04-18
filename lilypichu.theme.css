@@ -50,19 +50,21 @@
   /* Border-radius for the whole theme */
   --border-radius: 20px;
 
-  .progressBar-2yl2pi, .guildSeparator-a4uisj  {
-    background: linear-gradient(to right, #ff0a54, #ff477e, #ff5c8a, #ff99ac, #f7cad0, #fae0e4) !important;
-    animation: rainbowText 300s infinite linear;
 }
 
-@keyframes rainbowText {
-  from {
-    -webkit-filter: hue-rotate(0deg);
+.progressBar-2yl2pi, .guildSeparator-a4uisj  {
+  background: linear-gradient(to right, #ff0a54, #ff477e, #ff5c8a, #ff99ac, #f7cad0, #fae0e4) !important;
+  animation: rainbowText 300s infinite linear;
+
+
+  @keyframes rainbowText {
+    from {
+        -webkit-filter: hue-rotate(0deg);
+    }
+    to {
+        -webkit-filter: hue-rotate(360deg);
+    }
   }
-  to {
-    -webkit-filter: hue-rotate(360deg);
-  }
-}
   --channel-text-area-placeholder: #f70b75ce; 
 }
 
@@ -262,7 +264,7 @@
   background: var(--mention-background);
 }
 .theme-light .innerHeader-1cC3Fp:after {
-     display: none;
+  display: none;
 }
 .theme-light .buttonIcon-2Zsrs2 {
   color: var(--mention-background);
@@ -276,12 +278,12 @@
   display: none;
 }
 .theme-light .button-1EGGcP.buttonColor-3bP3fX, .button-1EGGcP .buttonColor-3bP3fX {
-    background: transparent;;
-    color: var(--interactive-active);
+  background: transparent;;
+  color: var(--interactive-active);
 }
 .theme-light .controlIcon-10O-4h {
   color: var(--interactive-normal);
 }
 .theme-light.row-1qtctT:hover {
-background-color: var(--text-normal) !important;
+  background-color: var(--text-normal) !important;
 }
